@@ -41,7 +41,7 @@ export default function ContactList() {
                   </td>
                   <td>
                     {result.name.first}
-                    {result.name.last}
+                    &nbsp;{result.name.last}
                   </td>
                   <td>{result.email}</td>
                   <td>{result.dob.date}</td>
